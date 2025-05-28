@@ -1,0 +1,16 @@
+pandas
+streamlit
+python-dotenv
+streamlit_option_menu 
+streamlit_chat
+africastalking
+openai
+seaborn
+requests
+matplotlib
+numpy
+folium
+google-generativeai
+streamlit-folium
+streamlit-audiorec
+folium
