@@ -14,3 +14,4 @@ google-generativeai
 streamlit-folium
 streamlit-audiorec
 folium
+opencage
