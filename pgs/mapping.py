@@ -248,7 +248,7 @@ with col2:
           filtered_by_disaster_subtype = filtered_by_disaster_type.copy()
 
 
-filtered = filtered_by_disaster_subtype.copy().head(100)
+filtered = filtered_by_disaster_subtype.copy().head(80)
 
 filtered.dropna(subset=['Location'], inplace=True)
 
