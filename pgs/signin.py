@@ -32,8 +32,6 @@ airtime = africastalking.Airtime
 
 
 
-from streamlit_carousel import carousel
-
 @st.dialog("Login")
 def sign_in_form():
     with st.form(key="user_login"):
