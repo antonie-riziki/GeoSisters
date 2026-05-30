@@ -41,10 +41,10 @@ data = df[['Disaster Group', 'Disaster Subgroup', 'Disaster Type', 'Disaster Sub
 
 data['Location'] = data['Location'] + ', ' + data['Country']
 
-data['Start Month'] = data['Start Month'].fillna(method='bfill')
-data['Start Day'] = data['Start Day'].fillna(method='bfill')
-data['End Month'] = data['End Month'].fillna(method='bfill')
-data['End Day'] = data['End Day'].fillna(method='bfill')
+data['Start Month'] = data['Start Month'].fillna()
+data['Start Day'] = data['Start Day'].fillna()
+data['End Month'] = data['End Month'].fillna()
+data['End Day'] = data['End Day'].fillna()
 
 data.dropna(subset=['End Day', 'End Month', 'Start Day'], inplace=True)
 
